@@ -1,25 +1,3 @@
-/*var a=[];
-function Func1(){    
-    for(var i=0;i<10;i++){
-        const url="https://dog.ceo/api/breeds/image/random ";
-        fetch(url).then((response)=>{
-            return response.json();
-        }).then((data)=>{
-            console.log(data);
-            var img=data.message;
-            a.push(img);
-        })    
-    }
-    a.map((value,i)=>{
-        var te="#display_img"+i;
-        console.log(te+" "+value);
-        
-        $(te).attr('src',value);            
-    })
-}
-$("#display_dog").click(Func1);
-
-console.log(a);*/
 var breedImage = $("#Display_img");
 var dropdown = $(".Dropdown_menu");
 
